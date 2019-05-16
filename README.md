@@ -1,5 +1,3 @@
-# graphpipe_oraclecodetokyo2019
-
 Downloader, Preprocessor, VGG はこちらの Implementation of Classyで紹介されているDockerを使用します。  
 https://hackernoon.com/machine-learning-model-pipelines-part-ii-23ebd1e6b714
   

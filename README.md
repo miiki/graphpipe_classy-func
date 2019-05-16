@@ -4,6 +4,7 @@ https://hackernoon.com/machine-learning-model-pipelines-part-ii-23ebd1e6b714
 Classy部分をFunction化したサンプルプログラムです。
 
 1. Oracle Fnが実行できるようセットアップ
+ローカル環境で動くよう Oracle Fn ProjectをセットアップすればOKです。(Oracle Cloud環境で動かすには契約＆申請が必要となります。）
 
 2. classy-funcの雛形作成とファイルの修正
 ```

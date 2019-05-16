@@ -1,9 +1,10 @@
 # mk_oct2019_graphpipe
 
-Oracle Code Tokyo のデモで実施した Oracle Fn のファンクション
+Oracle Code Tokyo のデモで実施した内容
 
-Oracle Fnが実行できるようセットアップした後、
+Oracle Fnが実行できるようセットアップし、
 
+```
 # classy-funcの雛形作成
 $ fn init --runtime go classy-func
 $ cd classy-func/
@@ -14,3 +15,4 @@ $ fn --verbose deploy --app classy-fn
 
 # Functionの実行
 $ echo -n '{"name": "https://www.oracle.com/assets/candy-177355-ja.jpg"}' |fn invoke classy-fn  classy-func
+```

@@ -5,7 +5,7 @@ Classy部分をFunction化したサンプルプログラムです。
 
 1. Oracle Fnが実行できるようセットアップ  
 ローカル環境で動くよう Oracle Fn ProjectをセットアップすればOKです。  
-(Oracle Cloud環境で動かす場合は、ご契約＆申請が必要となります。）
+(Oracle Cloud環境で動かす場合は、Oracle Cloudのお申込みと申請が必要となります。）
 
 2. classy-funcの雛形作成とファイルの修正
 ```

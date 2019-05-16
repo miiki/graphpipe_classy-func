@@ -14,7 +14,7 @@ $ cd classy-func/
 
 ※GoのFDKを使ったHelloWorldサンプルアプリケーションが classy-func/ 配下に作成されています。
 ここをgithub上のファイルに置き換えます。
-func.go内のURLを環境にあわせて編集します。
+func.go内の preprocessor := と downloader := のURLを、環境にあわせて編集します。
 ```
 
 3. Functionのdeploy 

@@ -11,9 +11,10 @@ Classy部分をFunction化しました。
 ```
 $ fn init --runtime go classy-func
 $ cd classy-func/
-(GoのFDKを使ったHelloWorldサンプルアプリケーションが classy-func/ 以下に作成されています。
+
+※GoのFDKを使ったHelloWorldサンプルアプリケーションが classy-func/ 配下に作成されています。
 ここをgithub上のファイルに置き換えます。
-func.go内のURLを環境にあわせて編集します)
+func.go内のURLを環境にあわせて編集します。
 ```
 
 3. Functionのdeploy 
@@ -21,8 +22,7 @@ func.go内のURLを環境にあわせて編集します)
 $ fn --verbose deploy --app classy-fn
 ```
 
-4. Functionの実行※拡張子が *.jpg のJPEGファイルを指定
+4. Functionの実行 ※拡張子が.jpg のJPEGファイルを指定
 ```
 $ echo -n '{"name": "https://dummy.com/abc.jpg"}' |fn invoke classy-fn  classy-func
-
 ```

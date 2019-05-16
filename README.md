@@ -15,7 +15,7 @@ Classy, Preprocessor, Downloader, VGG の4つのDockerコンテナのうち、Cl
 $ fn init --runtime go classy-func
 $ cd classy-func/
 
-※GoのFDKを使ったHelloWorldサンプルアプリケーションが classy-func/ 配下に作成されています。
+※GoのFDKを使ったHelloWorldサンプル用の関連ファイルが classy-func/ 配下に作成されています。
 ここをgithub上のファイルに置き換えます。
 func.go内の preprocessor := と downloader := のURLを、環境にあわせて編集します。
 ```

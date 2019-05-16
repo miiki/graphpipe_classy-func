@@ -3,7 +3,7 @@
 BLOGの最後の例、「Implementation of Classy」で紹介されているDockerを使用します。  
 https://hackernoon.com/machine-learning-model-pipelines-part-ii-23ebd1e6b714
   
-Classy, Preprocessor, Downloader, VGG の4つのDockerコンテナのうち、Classy以外の3つのDockerコンテナを起動します。  
+Classy, Preprocessor, Downloader, VGG の4つのDockerコンテナのうち、Classy以外のDockerコンテナを起動します。  
 以下の手順で、Classy部分をFunction化したサンプルプログラムが実行できます。
 
 1. Oracle Fnが実行できるようセットアップ  

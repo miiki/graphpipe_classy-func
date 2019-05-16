@@ -1,8 +1,8 @@
 # mk_oct2019_graphpipe
 
-Downloader, Preprocessor, VGG はこちらの Implementation of Classyで紹介されているDocker Imageをそのまま使用します。
+Downloader, Preprocessor, VGG はこちらの Implementation of Classyで紹介されているDockerを使用します。  
 https://hackernoon.com/machine-learning-model-pipelines-part-ii-23ebd1e6b714
-
+  
 Classy部分をFunction化しました。
 
 1. Oracle Fnが実行できるようセットアップ
@@ -21,8 +21,8 @@ func.go内のURLを環境にあわせて編集します)
 $ fn --verbose deploy --app classy-fn
 ```
 
-4. Functionの実行
+4. Functionの実行※拡張子が *.jpg のJPEGファイルを指定
 ```
 $ echo -n '{"name": "https://dummy.com/abc.jpg"}' |fn invoke classy-fn  classy-func
-※拡張子が *.jpg のJPEGファイルを指定
+
 ```

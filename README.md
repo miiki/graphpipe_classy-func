@@ -1,7 +1,7 @@
 Downloader, Preprocessor, VGG はこちらの Implementation of Classyで紹介されているDockerを使用します。  
 https://hackernoon.com/machine-learning-model-pipelines-part-ii-23ebd1e6b714
   
-Classy部分をFunction化しました。
+Classy部分をFunction化したサンプルプログラムです。
 
 1. Oracle Fnが実行できるようセットアップ
 

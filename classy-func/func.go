@@ -82,6 +82,7 @@ func myHandler(ctx context.Context, in io.Reader, out io.Writer) {
 
 	max_s := fmt.Sprintf("%.6f", max[0])
 	// rmsg := fmt.Sprintf("strSlice[%%#v] -> %#v", res)
+	// rmsg2 := fmt.Sprintf("{\"id\": 0, \"message\":\"" + "result_class=" + classes[arg[0]] + ", probability=" +  max_s + "\"}")
 	rmsg2 := fmt.Sprintf("{\"id\": 0, \"message\":\"" + "result_class=" + classesjp[arg[0]] + ", probability=" +  max_s + "\"}")
 
 	var m mymessageAPI

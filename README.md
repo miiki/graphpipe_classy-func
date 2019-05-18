@@ -25,7 +25,7 @@ func.go内の preprocessor := と downloader := のURLを、環境にあわせ�
 $ fn --verbose deploy --app classy-fn
 ```
 
-4. Functionの実行 ※拡張子が.jpg のJPEGファイルを指定
+4. Functionの実行 ※拡張子が.jpg のJPEGファイルを指定。URL指定のみ対応。
 ```
 $ echo -n '{"name": "https://dummy.com/abc.jpg"}' |fn invoke classy-fn  classy-func
 ```

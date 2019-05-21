@@ -8,7 +8,7 @@ Classy, Preprocessor, Downloader, VGG の4つのDockerコンテナのうち、Cl
 
 1. Oracle Fnが実行できるようセットアップ  
 ローカル環境で動くよう Oracle Fn ProjectをセットアップすればOKです。  
-(Oracle Cloud環境で動かす場合は、Oracle Cloudのお申込みと、現在LA（Limited Availability）のため別途申請が必要となります。）
+(Oracle Cloud環境で動かす場合は、Oracle Cloudのお申込みと、現在LA（Limited Availability）のためご利用には Request Access to Cloud Native Services in Limited Availability より別途申請が必要です。本内容はLA時点での情報です。）
 
 2. classy-funcの雛形作成とファイルの修正
 ```
